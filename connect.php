@@ -12,9 +12,10 @@ if (isset($_POST['backward'])){
 	mysqli_query($mysqli,"INSERT INTO`control` SET `Backward` = 'B'");
 }
 
+
 if (isset($_POST['forward'])){
-	echo '<p style="color:white;text-align:center;">F</p>';
-	mysqli_query($mysqli,"INSERT INTO`control` SET `Farward` = 'F'");
+	echo  '<p style="color:white;text-align:center;">F</p>';
+	mysqli_query($mysqli,"INSERT INTO`control` SET `forward` = 'F'");
 }
 
 if (isset($_POST['right'])){
